@@ -1,1 +1,3 @@
 # Flight-Redemption-Dashboard-Pipeline
+
+The Flight Redemption Analytics Platform is an end-to-end data engineering project that ingests cash flight prices and award redemption data, processes and transforms the data through a Medallion Architecture, and identifies high-value flight redemption opportunities using cents-per-point (CPP) analysis. Built with Python, PySpark, Airflow, Elasticsearch, and Streamlit, the platform demonstrates scalable batch ETL pipelines, data quality validation, anomaly detection, and search-driven analytics. The project simulates a production-grade airline pricing and loyalty analytics system, showcasing modern data engineering practices from data ingestion and transformation to orchestration, observability, and end-user data exploration.
