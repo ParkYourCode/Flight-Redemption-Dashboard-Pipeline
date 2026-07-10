@@ -1,5 +1,4 @@
-import sys
-from pathlib import Path
+import json
 from datetime import date, datetime, timedelta, timezone
 from config.routes import ROUTES as routes
 from clients.ignav_client import get_flights
@@ -16,6 +15,8 @@ def ingest_cash_flights():
         print(f"Processing route: {origin} -> {destination}")
 
         response = get_flights(origin, destination, departure_date)
+
+        print(response)
 
         if response is None:
             print(f"Failed to fetch flights for route: {origin} -> {destination}")
@@ -39,3 +40,6 @@ def ingest_cash_flights():
 
 if __name__ == "__main__":
     ingest_cash_flights()
+
+    with open("raw_records.json", "w") as f:
+        json.dump(raw_records, f, indent=4)

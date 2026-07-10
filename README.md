@@ -1,3 +1,61 @@
 # Flight-Redemption-Dashboard-Pipeline
 
-The Flight Redemption Analytics Platform is an end-to-end data engineering project that ingests cash flight prices and award redemption data, processes and transforms the data through a Medallion Architecture, and identifies high-value flight redemption opportunities using cents-per-point (CPP) analysis. Built with Python, PySpark, Airflow, Elasticsearch, and Streamlit, the platform demonstrates scalable batch ETL pipelines, data quality validation, anomaly detection, and search-driven analytics. The project simulates a production-grade airline pricing and loyalty analytics system, showcasing modern data engineering practices from data ingestion and transformation to orchestration, observability, and end-user data exploration.
+The Flight Redemption Analytics Platform is an end-to-end data engineering project that ingests cash flight prices and award redemption data, processes them through a medallion-style pipeline, and surfaces high-value redemption opportunities using cents-per-point (CPP) analysis.
+
+## What this project does
+
+This repository now includes a working local ETL workflow for:
+
+- ingesting cash flight pricing data,
+- generating synthetic award redemption data,
+- transforming that data into bronze, silver, and gold layers,
+- and producing gold-layer analytics for identifying attractive award redemptions.
+
+## Current pipeline status
+
+The project has progressed from initial ingestion scaffolding to a functional analytics pipeline:
+
+- Bronze layer: raw/normalized flight data is written to Parquet.
+- Silver layer: cash data is cleaned and enriched with timestamps and duration fields.
+- Bronze award layer: award redemption records are created and stored in Parquet.
+- Gold layer: cash and award data are joined to compute CPP and flag strong redemption opportunities.
+
+## Core components
+
+- Python and PySpark for ETL processing
+- Parquet-based storage for the medallion layers
+- Synthetic award generation logic for reward point estimation
+- Regression test coverage for the gold analytics transformation
+- A simple dashboard entry point for future visualization work
+
+## Project structure
+
+- etl/bronze/: bronze ingestion scripts
+- etl/silver/: silver transformation scripts
+- etl/gold/: gold analytics logic
+- utils/: shared helpers such as the synthetic award generator
+- tests/: regression tests for the pipeline logic
+- dashboard/: starter dashboard application
+
+## How to run locally
+
+1. Create and activate a Python virtual environment.
+2. Install the dependencies from requirements.txt.
+3. Run the ETL steps in order:
+   - bronze cash ingestion
+   - silver cash transformation
+   - bronze award ingestion
+   - gold analytics build
+4. Use the generated Parquet outputs in data/ for downstream analysis.
+
+## Recent progress
+
+The project now includes a working gold layer that joins cash and award data, calculates CPP, and marks likely good redemption opportunities. The core transformation is verified by an automated regression test.
+
+## Next steps
+
+Future work will focus on:
+
+- wiring the pipeline into Airflow orchestration,
+- expanding the dashboard with real analytics views,
+- and adding more data quality checks and monitoring.

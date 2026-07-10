@@ -1,0 +1,8 @@
+DEFAULT_TIER = "MEDIUM_HAUL"
+
+ROUTE_TIERS = {
+    ("LAX", "SFO"): "SHORT_HAUL",
+
+    ("LAX", "JFK"): "MEDIUM_HAUL",
+    ("SFO", "JFK"): "MEDIUM_HAUL"
+}

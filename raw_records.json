@@ -1,0 +1,1898 @@
+[
+    {
+        "origin": "LAX",
+        "destination": "JFK",
+        "departure_date": "2026-07-12",
+        "response": {
+            "origin": "LAX",
+            "destination": "JFK",
+            "departure_date": "2026-07-12",
+            "itineraries": [
+                {
+                    "price": {
+                        "amount": 263.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Frontier",
+                        "duration_minutes": 556,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "F9",
+                                "flight_number": "3216",
+                                "operating_carrier_name": "Frontier",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T23:34:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T06:34:00Z",
+                                "arrival_airport": "ATL",
+                                "arrival_time_local": "2026-07-13T07:20:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T11:20:00Z",
+                                "duration_minutes": 286,
+                                "aircraft": "Airbus A320neo"
+                            },
+                            {
+                                "marketing_carrier_code": "F9",
+                                "flight_number": "4732",
+                                "operating_carrier_name": "Frontier",
+                                "departure_airport": "ATL",
+                                "departure_time_local": "2026-07-13T09:21:00",
+                                "departure_timezone": "America/New_York",
+                                "departure_time_utc": "2026-07-13T13:21:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T11:50:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T15:50:00Z",
+                                "duration_minutes": 149,
+                                "aircraft": "Airbus A321neo"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "requires_self_transfer": false,
+                    "ignav_id": "68b61316e29f4760b7606d77eab6eddd"
+                },
+                {
+                    "price": {
+                        "amount": 322.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 316,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "960",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T21:00:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T04:00:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T05:16:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T09:16:00Z",
+                                "duration_minutes": 316,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "576ed5737cc447b7b554ed74c4fac46c"
+                },
+                {
+                    "price": {
+                        "amount": 322.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 318,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "676",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T22:45:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T05:45:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T07:03:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T11:03:00Z",
+                                "duration_minutes": 318,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "f7c561b60f41425e94fe9f366b59bec7"
+                },
+                {
+                    "price": {
+                        "amount": 322.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 321,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "915",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T23:55:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T06:55:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T08:16:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T12:16:00Z",
+                                "duration_minutes": 321,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "6dba4fab157c4ac59eded68d5bf9bf82"
+                },
+                {
+                    "price": {
+                        "amount": 322.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 330,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "124",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T06:00:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T13:00:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T14:30:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T18:30:00Z",
+                                "duration_minutes": 330,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "e8eea48b029945118ecbaf8557afcb62"
+                },
+                {
+                    "price": {
+                        "amount": 322.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 331,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "1524",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T20:30:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T03:30:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T05:01:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T09:01:00Z",
+                                "duration_minutes": 331,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "16b7b47ae279496e964b88ac312d44a3"
+                },
+                {
+                    "price": {
+                        "amount": 322.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 335,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "1024",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T22:25:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T05:25:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T07:00:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T11:00:00Z",
+                                "duration_minutes": 335,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "15fc897818534c639a92b84900e1d9c8"
+                },
+                {
+                    "price": {
+                        "amount": 322.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 336,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "824",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T16:20:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T23:20:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T00:56:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T04:56:00Z",
+                                "duration_minutes": 336,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "7d377a853ade4598be7118b596e5448c"
+                },
+                {
+                    "price": {
+                        "amount": 322.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 337,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "924",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T15:20:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T22:20:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T23:57:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T03:57:00Z",
+                                "duration_minutes": 337,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "2a5eae605fd1409db6662789c2694738"
+                },
+                {
+                    "price": {
+                        "amount": 322.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 337,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "1224",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T23:59:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T06:59:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T08:36:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T12:36:00Z",
+                                "duration_minutes": 337,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "a0d44be002e747dcafa5c64fe1a6177d"
+                },
+                {
+                    "price": {
+                        "amount": 347.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 336,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "10",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T21:27:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T04:27:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T06:03:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T10:03:00Z",
+                                "duration_minutes": 336,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "cb974195e2ae4ecc8039808d087529af"
+                },
+                {
+                    "price": {
+                        "amount": 347.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 337,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "30",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T22:23:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T05:23:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T07:00:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T11:00:00Z",
+                                "duration_minutes": 337,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "8f29fd51848e43c4aebffee3af24c3da"
+                },
+                {
+                    "price": {
+                        "amount": 347.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 339,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "28",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T15:15:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T22:15:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T23:54:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T03:54:00Z",
+                                "duration_minutes": 339,
+                                "aircraft": "Airbus A321neo"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "ad079f1f05ad43a98156c8b9d524535b"
+                },
+                {
+                    "price": {
+                        "amount": 347.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 341,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "274",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T11:55:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T18:55:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T20:36:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T00:36:00Z",
+                                "duration_minutes": 341,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "7f6bdae33b574590b087fa95b591f463"
+                },
+                {
+                    "price": {
+                        "amount": 349.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 332,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "524",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T07:27:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T14:27:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T15:59:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T19:59:00Z",
+                                "duration_minutes": 332,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "a218ff1c68b144509d31c1dbbf5ebc5d"
+                },
+                {
+                    "price": {
+                        "amount": 379.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 330,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "938",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T15:10:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T22:10:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T23:40:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T03:40:00Z",
+                                "duration_minutes": 330,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "d560bcedbe1f4c6984469cf9b57d020d"
+                },
+                {
+                    "price": {
+                        "amount": 379.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 338,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "991",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T13:15:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T20:15:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T21:53:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T01:53:00Z",
+                                "duration_minutes": 338,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "67cc13d57a5c406a8ed3ed9816d7de91"
+                },
+                {
+                    "price": {
+                        "amount": 419.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 335,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "324",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T11:55:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T18:55:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T20:30:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T00:30:00Z",
+                                "duration_minutes": 335,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "21f6c4d74cdd44ef9869718b33be8582"
+                },
+                {
+                    "price": {
+                        "amount": 419.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 336,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "424",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T09:43:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T16:43:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T18:19:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T22:19:00Z",
+                                "duration_minutes": 336,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "c233ce5bc43140b881d96d7322ee3797"
+                },
+                {
+                    "price": {
+                        "amount": 419.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 337,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "118",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T06:00:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T13:00:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T14:37:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T18:37:00Z",
+                                "duration_minutes": 337,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "8de4988f86b645ecb4548d3f1004f60a"
+                },
+                {
+                    "price": {
+                        "amount": 469.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 333,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "934",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T06:00:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T13:00:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T14:33:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T18:33:00Z",
+                                "duration_minutes": 333,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "1bf6a20a019e41cc86d1db4600e13712"
+                },
+                {
+                    "price": {
+                        "amount": 469.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 338,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "979",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T07:00:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T14:00:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T15:38:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T19:38:00Z",
+                                "duration_minutes": 338,
+                                "aircraft": "Airbus A330-900neo"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "518a8c38980447efb384db98c92d1c52"
+                },
+                {
+                    "price": {
+                        "amount": 469.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 345,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "951",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T09:50:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T16:50:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T18:35:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T22:35:00Z",
+                                "duration_minutes": 345,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "91afd987519c43949e1f292e422264e4"
+                },
+                {
+                    "price": {
+                        "amount": 469.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 347,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "939",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T11:15:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T18:15:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T20:02:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T00:02:00Z",
+                                "duration_minutes": 347,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "8bbf9a5a02ea48458faad07d22ec7674"
+                },
+                {
+                    "price": {
+                        "amount": 469.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 350,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "958",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T08:10:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T15:10:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T17:00:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T21:00:00Z",
+                                "duration_minutes": 350,
+                                "aircraft": "Airbus A330"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "d640a66b768a4394b2bf3e83d718f59e"
+                },
+                {
+                    "price": {
+                        "amount": 489.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 339,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "224",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T12:55:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T19:55:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T21:34:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T01:34:00Z",
+                                "duration_minutes": 339,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "e27823d49f6e4885850abe51dc0c941c"
+                },
+                {
+                    "price": {
+                        "amount": 489.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 340,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "624",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T14:30:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T21:30:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T23:10:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T03:10:00Z",
+                                "duration_minutes": 340,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "1b1532c237154af2a6b0ec126988ed6d"
+                },
+                {
+                    "price": {
+                        "amount": 508.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 339,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "2",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T07:00:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T14:00:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T15:39:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T19:39:00Z",
+                                "duration_minutes": 339,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "4123d7abc58f4397976e1724a8cb3822"
+                },
+                {
+                    "price": {
+                        "amount": 560.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 334,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "4",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T13:00:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T20:00:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T21:34:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T01:34:00Z",
+                                "duration_minutes": 334,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "f4fbc9fc15db4fd69ecfa0e3ff570826"
+                },
+                {
+                    "price": {
+                        "amount": 560.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 341,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "238",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T10:11:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T17:11:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T18:52:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T22:52:00Z",
+                                "duration_minutes": 341,
+                                "aircraft": "Airbus A321neo"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "b82d76735bcb4aa79356533ef4959024"
+                },
+                {
+                    "price": {
+                        "amount": 560.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 341,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "32",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T11:05:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T18:05:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T19:46:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T23:46:00Z",
+                                "duration_minutes": 341,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "a7232bf57dc4458bb6b2726f5fdeb4ec"
+                },
+                {
+                    "price": {
+                        "amount": 592.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 339,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "307",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "LAX",
+                                "departure_time_local": "2026-07-12T08:30:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T15:30:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T17:09:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T21:09:00Z",
+                                "duration_minutes": 339,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "5283e791e17548f082560fda546eef6b"
+                }
+            ]
+        },
+        "ingest_ts": "2026-07-06T00:05:29.019008+00:00"
+    },
+    {
+        "origin": "SFO",
+        "destination": "JFK",
+        "departure_date": "2026-07-12",
+        "response": {
+            "origin": "SFO",
+            "destination": "JFK",
+            "departure_date": "2026-07-12",
+            "itineraries": [
+                {
+                    "price": {
+                        "amount": 214.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Frontier",
+                        "duration_minutes": 640,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "F9",
+                                "flight_number": "1448",
+                                "operating_carrier_name": "Frontier",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T22:10:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T05:10:00Z",
+                                "arrival_airport": "ATL",
+                                "arrival_time_local": "2026-07-13T06:07:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T10:07:00Z",
+                                "duration_minutes": 297,
+                                "aircraft": "Airbus A321neo"
+                            },
+                            {
+                                "marketing_carrier_code": "F9",
+                                "flight_number": "4732",
+                                "operating_carrier_name": "Frontier",
+                                "departure_airport": "ATL",
+                                "departure_time_local": "2026-07-13T09:21:00",
+                                "departure_timezone": "America/New_York",
+                                "departure_time_utc": "2026-07-13T13:21:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T11:50:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T15:50:00Z",
+                                "duration_minutes": 149,
+                                "aircraft": "Airbus A321neo"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "requires_self_transfer": false,
+                    "ignav_id": "4987f82a06a74f12af5d916a09ff219e"
+                },
+                {
+                    "price": {
+                        "amount": 290.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 350,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "166",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T12:10:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T19:10:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T21:00:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T01:00:00Z",
+                                "duration_minutes": 350,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "67879028ee27484488f9c2a6d6cdd842"
+                },
+                {
+                    "price": {
+                        "amount": 314.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Alaska",
+                        "duration_minutes": 348,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AS",
+                                "flight_number": "20",
+                                "operating_carrier_name": "Alaska",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T07:20:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T14:20:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T16:08:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T20:08:00Z",
+                                "duration_minutes": 348,
+                                "aircraft": "Boeing 737"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "afc9d3ae983a4fdba004f59d4f0201f0"
+                },
+                {
+                    "price": {
+                        "amount": 314.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Alaska",
+                        "duration_minutes": 348,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AS",
+                                "flight_number": "42",
+                                "operating_carrier_name": "Alaska",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T13:38:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T20:38:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T22:26:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T02:26:00Z",
+                                "duration_minutes": 348,
+                                "aircraft": "Boeing 737"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "8e50aca805ee4a3884d34311e67b9e13"
+                },
+                {
+                    "price": {
+                        "amount": 329.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 327,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "365",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T22:30:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T05:30:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T06:57:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T10:57:00Z",
+                                "duration_minutes": 327,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "requires_self_transfer": false,
+                    "ignav_id": "7de36f897be24f6583fec0853a52d545"
+                },
+                {
+                    "price": {
+                        "amount": 329.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 343,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "405",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T07:00:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T14:00:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T15:43:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T19:43:00Z",
+                                "duration_minutes": 343,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "2591692ccdf3463391151e0ee3df8ee7"
+                },
+                {
+                    "price": {
+                        "amount": 362.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 343,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "816",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T23:50:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T06:50:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T08:33:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T12:33:00Z",
+                                "duration_minutes": 343,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "c23babb0f6fa4a50a1aa1f6e84ab3742"
+                },
+                {
+                    "price": {
+                        "amount": 379.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 329,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "2112",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T23:50:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T06:50:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T08:19:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T12:19:00Z",
+                                "duration_minutes": 329,
+                                "aircraft": "Boeing 757"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "902b551ca0564c23bda99f02706504d3"
+                },
+                {
+                    "price": {
+                        "amount": 379.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Alaska",
+                        "duration_minutes": 350,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AS",
+                                "flight_number": "211",
+                                "operating_carrier_name": "Alaska",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T21:30:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T04:30:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T06:20:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T10:20:00Z",
+                                "duration_minutes": 350,
+                                "aircraft": "Boeing 737MAX 9 Passenger"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "96da7d22d31e4c328ec3f53398e89bdd"
+                },
+                {
+                    "price": {
+                        "amount": 464.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 338,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "116",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T06:00:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T13:00:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T14:38:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T18:38:00Z",
+                                "duration_minutes": 338,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "27b01dabb1254ecb8cf14416bd9f9d49"
+                },
+                {
+                    "price": {
+                        "amount": 478.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 347,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "216",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T13:15:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T20:15:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T22:02:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T02:02:00Z",
+                                "duration_minutes": 347,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "33d5589f3d8a4bfbaec836fffad74a86"
+                },
+                {
+                    "price": {
+                        "amount": 479.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 340,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "396",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T16:00:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T23:00:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T00:40:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T04:40:00Z",
+                                "duration_minutes": 340,
+                                "aircraft": "Boeing 757"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "87265b1303b1428abe31b4e9105dac8d"
+                },
+                {
+                    "price": {
+                        "amount": 479.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 344,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "691",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T13:00:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T20:00:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T21:44:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T01:44:00Z",
+                                "duration_minutes": 344,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "requires_self_transfer": false,
+                    "ignav_id": "c91a01eda0b84adb86d83e45d5ba6146"
+                },
+                {
+                    "price": {
+                        "amount": 479.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 349,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "668",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T11:30:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T18:30:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T20:19:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T00:19:00Z",
+                                "duration_minutes": 349,
+                                "aircraft": "Boeing 767"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "110514037a314414bcdabdeec76f8608"
+                },
+                {
+                    "price": {
+                        "amount": 479.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "Delta",
+                        "duration_minutes": 350,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "DL",
+                                "flight_number": "383",
+                                "operating_carrier_name": "Delta",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T08:55:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T15:55:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T17:45:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T21:45:00Z",
+                                "duration_minutes": 350,
+                                "aircraft": "Boeing 757"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "0d7cf45e63614e4fa65991bf88504e5d"
+                },
+                {
+                    "price": {
+                        "amount": 530.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 345,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "416",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T14:35:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T21:35:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T23:20:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T03:20:00Z",
+                                "duration_minutes": 345,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "806742b522314df09d566e3684c899f6"
+                },
+                {
+                    "price": {
+                        "amount": 588.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 337,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "316",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T07:53:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T14:53:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T16:30:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T20:30:00Z",
+                                "duration_minutes": 337,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "25beb9290ca64e3e913261fcdbde0a38"
+                },
+                {
+                    "price": {
+                        "amount": 619.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 347,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "234",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T06:15:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T13:15:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T15:02:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T19:02:00Z",
+                                "duration_minutes": 347,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "7e8b0c7faee041c7af3ef8c4a6d89760"
+                },
+                {
+                    "price": {
+                        "amount": 619.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 349,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "16",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T10:15:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T17:15:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T19:04:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-12T23:04:00Z",
+                                "duration_minutes": 349,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "ed0ec4d3add64a46957dfd04c358207f"
+                },
+                {
+                    "price": {
+                        "amount": 627.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "JetBlue",
+                        "duration_minutes": 342,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "B6",
+                                "flight_number": "16",
+                                "operating_carrier_name": "JetBlue",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T20:25:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T03:25:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T05:07:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T09:07:00Z",
+                                "duration_minutes": 342,
+                                "aircraft": "Airbus A320"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "511e45085f8f449dabae0cbfb9073b8f"
+                },
+                {
+                    "price": {
+                        "amount": 672.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 340,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "276",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T21:20:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-13T04:20:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-13T06:00:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T10:00:00Z",
+                                "duration_minutes": 340,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "76ea4ce37d214494b1ab9a5e2c2786eb"
+                },
+                {
+                    "price": {
+                        "amount": 672.0,
+                        "currency": "USD",
+                        "status": "verified"
+                    },
+                    "outbound": {
+                        "carrier": "American",
+                        "duration_minutes": 357,
+                        "segments": [
+                            {
+                                "marketing_carrier_code": "AA",
+                                "flight_number": "148",
+                                "operating_carrier_name": "American",
+                                "departure_airport": "SFO",
+                                "departure_time_local": "2026-07-12T14:45:00",
+                                "departure_timezone": "America/Los_Angeles",
+                                "departure_time_utc": "2026-07-12T21:45:00Z",
+                                "arrival_airport": "JFK",
+                                "arrival_time_local": "2026-07-12T23:42:00",
+                                "arrival_timezone": "America/New_York",
+                                "arrival_time_utc": "2026-07-13T03:42:00Z",
+                                "duration_minutes": 357,
+                                "aircraft": "Airbus A321 (Sharklets)"
+                            }
+                        ]
+                    },
+                    "cabin_class": "economy",
+                    "bags": {
+                        "carry_on": 1,
+                        "checked": 2
+                    },
+                    "requires_self_transfer": false,
+                    "ignav_id": "2cf8f0b041b5401f9260788b36205a3a"
+                }
+            ]
+        },
+        "ingest_ts": "2026-07-06T00:05:32.604751+00:00"
+    }
+]
