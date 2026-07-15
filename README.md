@@ -41,12 +41,15 @@ The project has progressed from initial ingestion scaffolding to a functional an
 
 1. Create and activate a Python virtual environment.
 2. Install the dependencies from requirements.txt.
-3. Run the ETL steps in order:
-   - bronze cash ingestion
-   - silver cash transformation
-   - bronze award ingestion
-   - gold analytics build
-4. Use the generated Parquet outputs in data/ for downstream analysis.
+3. Run the end-to-end pipeline from the project root:
+   - `python etl/run_pipeline.py`
+4. Use the generated Parquet outputs in data folder for downstream analysis.
+
+You can also run the ETL steps individually if you want to inspect each stage:
+- bronze cash ingestion
+- silver cash transformation
+- bronze award ingestion
+- gold analytics build
 
 ## Recent progress
 
