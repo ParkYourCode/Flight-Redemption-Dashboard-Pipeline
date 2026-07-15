@@ -10,14 +10,13 @@ raw_records = []
 
 
 def read_silver_flights():
-    """Read all silver cash parquet files into a dataframe."""
-    silver_dir = Path(__file__).resolve().parents[1] / "data" / "silver" / "cash"
-    parquet_files = sorted(silver_dir.glob("*.parquet"))
+    """Read the silver cash parquet file into a dataframe."""
+    silver_path = Path(__file__).resolve().parents[1] / "data" / "silver" / "cash" / "part-00000-885e84c1-d652-4677-8647-c8f303df8b8b-c000.snappy.parquet"
 
-    if not parquet_files:
-        raise FileNotFoundError(f"No parquet files found in {silver_dir}")
+    if not silver_path.exists():
+        raise FileNotFoundError(f"No parquet file found at {silver_path}")
 
-    return pd.concat([pd.read_parquet(path) for path in parquet_files], ignore_index=True)
+    return pd.read_parquet(silver_path)
 
 
 def build_flat_award_record(row):
