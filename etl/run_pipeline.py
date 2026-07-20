@@ -3,17 +3,26 @@ import sys
 from pathlib import Path
 
 
-def build_pipeline_steps():
-    project_root = Path(__file__).resolve().parents[1].resolve()
+def build_pipeline_steps(project_root=None):
+    """Return the ordered scripts that make up the local pipeline."""
+    project_root = (
+        Path(project_root).resolve()
+        if project_root is not None
+        else Path(__file__).resolve().parents[1].resolve()
+    )
     return [
         {"name": "bronze-cash", "script": str(project_root / "etl" / "bronze" / "load_bronze_cash.py")},
         {"name": "silver-cash", "script": str(project_root / "etl" / "silver" / "load_silver_cash.py")},
         {"name": "bronze-award", "script": str(project_root / "etl" / "bronze" / "load_bronze_award.py")},
         {"name": "gold-analytics", "script": str(project_root / "etl" / "gold" / "build_gold_analytics.py")},
+        # Validate curated records before publishing them to the user-facing search index.
+        {"name": "validate-gold", "script": str(project_root / "etl" / "quality" / "validate_gold.py")},
+        {"name": "index-search", "script": str(project_root / "search" / "index_gold_flights.py")},
     ]
 
 
 def run_pipeline():
+    """Run pipeline scripts sequentially and stop after the first failure."""
     project_root = Path(__file__).resolve().parents[1].resolve()
     python_executable = sys.executable
     results = []
