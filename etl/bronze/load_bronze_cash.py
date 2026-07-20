@@ -34,4 +34,4 @@ df_bronze = df_itin.select(
 # derive ingestion_date from ingestion_timestamp and write partitioned by it
 df_bronze = df_bronze.withColumn("ingestion_date", to_date(col("ingestion_timestamp")))
 
-df_bronze.write.mode("append").partitionBy("ingestion_date").parquet("data/bronze/cash/")
+df_bronze.write.mode("overwrite").partitionBy("ingestion_date").parquet("data/bronze/cash/")

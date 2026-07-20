@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, lit, round
+from pyspark.sql.functions import col, round, when
 
 
 spark = SparkSession.builder.appName("gold_analytics").getOrCreate()
@@ -25,8 +25,13 @@ def build_gold_analytics(cash_df, award_df):
             how="inner",
         )
         .withColumn("cash_price_cents", col("cash.cash_price") * 100)
-        .withColumn("cpp_cents_per_point", round(col("cash_price_cents") / col("award.points_required"), 2))
-        .withColumn("is_good_redemption", col("cpp_cents_per_point") <= 2.0)
+        .withColumn(
+            "cpp_cents_per_point",
+            when(
+                col("award.points_required") > 0,
+                round(col("cash_price_cents") / col("award.points_required"), 2),
+            ),
+        )
     )
 
     return joined.select(
@@ -40,7 +45,6 @@ def build_gold_analytics(cash_df, award_df):
         col("cash.currency").alias("currency"),
         col("award.points_required").alias("points_required"),
         col("cpp_cents_per_point"),
-        col("is_good_redemption"),
         col("award.cabin_class").alias("cabin_class"),
         col("award.program").alias("program"),
         col("award.award_type").alias("award_type"),

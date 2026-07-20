@@ -1,5 +1,3 @@
-import random
-
 from config.route_tiers import ROUTE_TIERS, DEFAULT_TIER
 from config.multipliers import (
     ROUTE_MULTIPLIERS,
@@ -40,8 +38,5 @@ def calculate_award_points(
         * cabin_multiplier
         * airline_multiplier
     )
-
-    # +/- 5% variability
-    points *= random.uniform(0.95, 1.05)
 
     return int(round(points))

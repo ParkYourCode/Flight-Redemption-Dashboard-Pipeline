@@ -86,4 +86,3 @@ def test_build_gold_analytics_calculates_cpp(spark):
 
     assert len(rows) == 1
     assert rows[0]["cpp_cents_per_point"] == pytest.approx(1.0)
-    assert rows[0]["is_good_redemption"] is True
