@@ -18,7 +18,8 @@ The project has progressed from initial ingestion scaffolding to a functional an
 - Bronze layer: raw/normalized flight data is written to Parquet.
 - Silver layer: cash data is cleaned and enriched with timestamps and duration fields.
 - Bronze award layer: award redemption records are created and stored in Parquet.
-- Gold layer: cash and award data are joined to compute CPP and flag strong redemption opportunities.
+- Gold layer: cash and award data are joined to compute CPP for comparison and sorting.
+- Quality layer: PySpark checks required fields, schema drift, duplicate flight IDs, invalid flight times, and null-rate thresholds.
 
 ## Core components
 
@@ -26,6 +27,7 @@ The project has progressed from initial ingestion scaffolding to a functional an
 - Parquet-based storage for the medallion layers
 - Synthetic award generation logic for reward point estimation
 - Regression test coverage for the gold analytics transformation
+- Parquet quality outputs for record-level flags and run-level null-rate metrics
 - A simple dashboard entry point for future visualization work
 
 ## Project structure
